@@ -87,6 +87,7 @@ Principais linguagens
 ---------------------
 
 **JavaScript**
+
 O projeto é desenvolvido principalmente em ECMAScript 6 (ou apenas ES6), que é a nova versão da linguagem JavaScript. Como a essa nova versão do JavaScript ainda não é compatível com os browsers, é usada uma ferramenta chamada Babel (explicado na seção de ferramentas), que serve de transpiler para compilar o código em ES6 e convertê-lo para ES5 (que é compatível com os browsers atuais).
 
 Exemplo:
@@ -106,9 +107,11 @@ Exemplo:
 
 
 **HTML**
+
 Linguagem de marcação para criar páginas Web. Essa linguagem descreve como uma página Web deve ser estruturada utilizando-se tags.
 
 **Jade/Pug**
+
 Linguagem de template que gera código HTML. Sua principal característica é que ela permite o uso de uma sintaxe mais simples e poderosa que escrever em HTML puro. Esse tipo de linguagem também é conhecida como HTML preprocessor. Depois do código escrito, roda-se um script que converte o código para HTML.
 
 Exemplo:
@@ -122,9 +125,11 @@ Exemplo:
     	<p class="pull-left"> Sem nome </p>
 
 **CSS**
+
 CSS (Cascading Style Sheets) é uma linguagem para Web que define como os elementos devem ser mostrados. Exemplo: um elemento deve ter 14px de tamanho, estar alinhado à esquerda, ter uma borda sólida, sua cor de linha deve ser verde e a cor de fundo amarela.
 
 **Sass**
+
 Sass (Syntactically Awesome Style Sheets) é um CSS preprocessor. Utilizando-se Sass, é possível escrever em uma linguagem de programação mais amigável e mais poderosa que CSS puro. Exemplo: criar variáveis em Sass e utilizá-las depois, o que não é possível em CSS. Outro exemplo seria o de aninhar elementos, como mostrado abaixo.
 
 Exemplo:
@@ -146,5 +151,6 @@ Exemplo:
     	}
 
 **Less**
+
 Less é um CSS preprocessor e possui a mesma função do Sass.
 
