@@ -30,7 +30,7 @@ Vocabulário Específico
  - ECMAScript: linguagem de programação padronizada pela Ecma International e que foi a base para o JavaScript. 
  - ECMAScript 5 / ES5: é a quinta edição do ECMAScript e que foi padronizada em 2009. Esse padrão foi quase que completamente implementado por todos os *browsers*.
  - ECMAScript 6 / ES6: é a sexta edição do ECMAScript e que foi padronizada em 2015. Ainda está parcialmente implementada pelos browsers, como pode ser verificada na figura de representação de compatibilidade abaixo, onde a porcentagem indica a quantidade de características do ES6 que já estão disponíveis.
-   
+   ![tabela de compatibilidade es6](https://raw.githubusercontent.com/lucasmonteiro001/engenharia-de-software-2-freeCodeCamp/master/tabela_compatibilidade.png)
    			Fonte: http://kangax.github.io/compat-table/es6/ 
    			
  - *End-to-end*: é um princípio de design da área de redes de computadores que diz respeito a comunicação entre processos fim a fim; 
