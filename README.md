@@ -3,9 +3,11 @@ Arquitetura do sistema Free Code Camp
 
 **Alunos:** Arthur Vargas, Lucas Pereira Monteiro, Thiago Lucas dos S. Sandi
 
-**Professor:** Marco Túlio Oliveira Valente
+**Professor:** Marco Túlio de Oliveira Valente
 
 **Monitor:** José Laerte Xavier
+
+**Disciplina:** Engenharia de Software II
 
 **Repositório Github:** https://github.com/FreeCodeCamp/FreeCodeCamp
 
