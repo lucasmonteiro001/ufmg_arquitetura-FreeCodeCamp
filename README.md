@@ -211,8 +211,38 @@ Para garantir que o código criado não quebrou funcionalidades já existentes, 
 
 Por fim, para monitorar a aplicação final, é usado a ferramenta pm2start que traz várias métricas sobre o sistema em execução, o que ajuda a monitorá-lo e garantir que tudo está ocorrendo sem problemas.
 
-Documentação da arquitetura na visão de desenvolvimento
+Arquitetura
 -------------------------------------------------------
+Após análise do sistema no GitHub, foi possível concluir que o sistema é dividido em 4 módulos: Client, Server, Public e Common. Onde cada um possui suas respectivas responsabilidades na execução e funcionamento do sistema.
+
+**Client**
+
+Neste módulo temos o código que deve ser executado somente no lado do cliente. Aqui são executadas as funções do cliente de acordo com o que foi requisitado. Temos 5 repositórios neste módulo: *commonFramework*, *less*, *rechallenge*, *sagas*, *utils*.
+
+No repositório *commomFramework* temos o *framework* que executa e analisa os desafios feitos pelo cliente, desafios relacionados ao desenvolvimento do curso, temos funções para verificar qual o tipo de desafio, testar se o desafio foi feito corretamente, etc.
+
+No repositório *less*, temos os arquivos .less da parte do cliente, estes arquivos possuem uma linguagem baseada em CSS. No repositório temos vários arquivos que definem o layout da página, por exemplo o arquivo map.less que define como será as cores de fontE, tamanho de margem, layout relacionado ao filtro, entre outras configurações de layout relacionadas ao mapa do sistema. Portanto podemos definir este módulo como as configurações de layout do cliente.
+
+No repositório *rechallenge* é feito configurações para execução de determinado desafio, que pode ser selecionado pelo cliente na página do sistema.
+
+O repositório *saga* serve para iniciar e lidar com os possíveis eventos do sistema. Por exemplo o arquivo execute-challenge-saga.js inicializa um evento relacionado à algum determinado desafio. Temos o arquivo err-saga.js também que adiciona o evento de erro caso ocorra, este evento de erro é descrito no seguinte código do arquivo:
+
+    export default function errorSaga(action$) {
+      return action$
+        .filter(({ error }) => !!error)
+        .map(({ error }) => error)
+        .doOnNext(error => console.error(error))
+        .map(() => ({
+          type: 'app.makeToast',
+          payload: {
+            type: 'error',
+            title: 'Oops, something went wrong',
+            message: 'Something went wrong, please try again later'
+          }
+        }));
+    }
+
+
 
 Referências
 -----------
