@@ -242,7 +242,19 @@ O repositório *saga* serve para iniciar e lidar com os possíveis eventos do si
         }));
     }
 
+O repositório *utils* contém utilitários comuns na execução do cliente, *utils* é usado em várias partes do código do cliente. Em *utils* temos por exemplo o arquivo flash-to-toast.test.js que faz testes de entradas de dados, como também temos arquivos que identificam qual o caminho das rotas de acesso do sistema na parte do cliente.
 
+**Server**
+
+Eeste módulo se relaciona com toda a parte que diz respeito ao servidor e tudo que é executado nele. Neste módulo o servidor é iniciado de acordo com as configurações pré-definidas e as variáveis de ambiente são setadas, os bancos de dados usados são definidos e são também definidos os middlewares a serem usados. Existem 7 diretórios neste módulo, que são: *boot*, *manifests*, *middlewares*, *resources*, *services*, *utils*, *views*, os quais serão explicados a seguir.
+
+ - *boot*: aqui são definidas as rotinas de inicialização do sistema.
+ - *manifests*: esse diretório contém arquivos json gerados em tempo de execução de acordo com cada cliente.
+ - *middlewares*: são definidas as formas que o servidor vai lidar com os diferentes requisições do sistema, no sentido de servir como um *parser* para as diferentes linguagens pré-compiladas ou de domínio específico, de forma que elas sejam compiladas e convertidas para linguagens que o servidor entenda.
+ - *resources*: este diretório contém alguns recursos do servidor, no caso, ele possui apenas o arquivo testimonials.json, que contém uma lista de testemunhos dados por usuários da aplicação, juntamente com informações básicas deste usuário e um link para a foto de perfil dele. Essa lista serve para abastecer a sessão de testemunhos da aplicação.
+ - *services*: contém instanciações de alguns serviços da aplicação.
+ - *utils*: contém utilitários, ou seja, funções úteis que facilitam o desenvolvimento e são usadas em outras partes do módulo. Um exemplo é o arquivo auth.js, que contém funções para lidar com a autenticação de um usuário ou setar o perfil de um usuário de acordo com seu perfil em outra plataforma, como o GitHub.
+ - *views*: possui arquivos, em sua maioria, escritos em .Jade, e possui o papel de definir e configurar a parte de visualização no lado do servidor.
 
 Referências
 -----------
