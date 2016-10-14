@@ -85,7 +85,7 @@ Principais linguagens
 
 **JavaScript**
 
-O projeto é desenvolvido principalmente em ECMAScript 6 (ou apenas ES6), que é a nova versão da linguagem JavaScript. Como a essa nova versão do JavaScript ainda não é compatível com os browsers, é usada uma ferramenta chamada Babel (explicado na seção de ferramentas), que serve de transpiler para compilar o código em ES6 e convertê-lo para ES5 (que é compatível com os browsers atuais).
+O projeto é desenvolvido principalmente em ECMAScript 6 (ou apenas ES6), que é a nova versão da linguagem JavaScript. Como a essa nova versão do JavaScript ainda não é compatível com os *browsers*, é usada uma ferramenta chamada Babel (explicado na seção de ferramentas), que serve de *transpiler* para compilar o código em ES6 e convertê-lo para ES5 (que é compatível com os *browsers* atuais).
 
 Exemplo:
 
@@ -105,11 +105,11 @@ Exemplo:
 
 **HTML**
 
-Linguagem de marcação para criar páginas Web. Essa linguagem descreve como uma página Web deve ser estruturada utilizando-se tags.
+Linguagem de marcação para criar páginas Web. Essa linguagem descreve como uma página Web deve ser estruturada utilizando-se *tags*.
 
 **Jade/Pug**
 
-Linguagem de template que gera código HTML. Sua principal característica é que ela permite o uso de uma sintaxe mais simples e poderosa que escrever em HTML puro. Esse tipo de linguagem também é conhecida como HTML preprocessor. Depois do código escrito, roda-se um script que converte o código para HTML.
+Linguagem de template que gera código HTML. Sua principal característica é que ela permite o uso de uma sintaxe mais simples e poderosa que escrever em HTML puro. Esse tipo de linguagem também é conhecida como HTML *preprocessor*. Depois do código escrito, roda-se um script que converte o código para HTML.
 
 Exemplo:
 
@@ -123,11 +123,11 @@ Exemplo:
 
 **CSS**
 
-CSS (Cascading Style Sheets) é uma linguagem para Web que define como os elementos devem ser mostrados. Exemplo: um elemento deve ter 14px de tamanho, estar alinhado à esquerda, ter uma borda sólida, sua cor de linha deve ser verde e a cor de fundo amarela.
+CSS (*Cascading Style Sheets*) é uma linguagem para Web que define como os elementos devem ser mostrados. Exemplo: um elemento deve ter 14px de tamanho, estar alinhado à esquerda, ter uma borda sólida, sua cor de linha deve ser verde e a cor de fundo amarela.
 
 **Sass**
 
-Sass (Syntactically Awesome Style Sheets) é um CSS preprocessor. Utilizando-se Sass, é possível escrever em uma linguagem de programação mais amigável e mais poderosa que CSS puro. Exemplo: criar variáveis em Sass e utilizá-las depois, o que não é possível em CSS. Outro exemplo seria o de aninhar elementos, como mostrado abaixo.
+Sass (*Syntactically Awesome Style Sheets*) é um CSS *preprocessor*. Utilizando-se Sass, é possível escrever em uma linguagem de programação mais amigável e mais poderosa que CSS puro. Exemplo: criar variáveis em Sass e utilizá-las depois, o que não é possível em CSS. Outro exemplo seria o de aninhar elementos, como mostrado abaixo.
 
 Exemplo:
 
@@ -140,16 +140,16 @@ Exemplo:
     	}
 
     CSS
-    div.red {
-    		color: red;
-    	}
-    div.red p {
-    		color: blue;
-    	}
+	    div.red {
+	    		color: red;
+	    	}
+	    div.red p {
+	    		color: blue;
+	    	}
 
 **Less**
 
-Less é um CSS preprocessor e possui a mesma função do Sass.
+Less é um CSS *preprocessor* e possui a mesma função do Sass.
 
 Ambiente de execução
 --------------------
@@ -166,19 +166,19 @@ Principais frameworks
 
 **Loopback**
 
-Loopback é um framework open source que consiste em bibliotecas de módulos do Node.js e que funciona de maneira full-stack, ajudando o desenvolvedor na construção de APIs mobile, web e de outros dispositivos. Esse framework entra como uma camada acima dos serviços e dos dados da aplicação, e provê diversas funcionalidades que habilitam o desenvolvedor a, por exemplo:
+Loopback é um *framework* de código aberto que consiste em bibliotecas de módulos do Node.js e que funciona de maneira *full-stack*, ajudando o desenvolvedor na construção de APIs *mobile*, web e de outros dispositivos. Esse framework entra como uma camada acima dos serviços e dos dados da aplicação, e provê diversas funcionalidades que habilitam o desenvolvedor a, por exemplo:
 
- - Criar REST APIs dinâmicas e com design end-to-end;
+ - Criar REST APIs dinâmicas e com design *end-to-end*;
  - Acessar e se conectar a dados de diversas fontes, como: Oracle, MySQL, PostgreSQL, MS SQL Server, MongoDB, SOAP e outras REST APIs;
  - Monitorar e implantar os Apps de forma gráfica através da ferramenta Strongloop Arc;
  - Executar as aplicações localmente ou na nuvem;
  - Criar aplicações cliente de forma fácil usando diferentes SDKs;
 
-A figura a seguir ilustra como é a estrutura de uma aplicação em Loopback. Esse framework tem papéis em diferentes partes da aplicação através do seu extenso conjunto de módulos:
+A figura a seguir ilustra como é a estrutura de uma aplicação em Loopback. Esse *framework* tem papéis em diferentes partes da aplicação através do seu extenso conjunto de módulos:
 
 **Bootstrap**
 
-É um framework HTML, CSS e JavaScript para desenvolvimento de projetos responsivos e mobile-first.
+É um *framework* HTML, CSS e JavaScript para desenvolvimento de projetos responsivos e mobile-first.
 
 Principais ferramentas
 ----------------------
