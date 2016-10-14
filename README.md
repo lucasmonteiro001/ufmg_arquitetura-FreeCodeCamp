@@ -213,3 +213,36 @@ As tasks mostradas na figura acima são explicadas na seção de principais ferr
 Para garantir que o código criado não quebrou funcionalidades já existentes, quando o código é pushed para o GitHub, uma notificação é feita para o sistema Travis que executa os testes automatizados para verificar que todos os testes já escritos continuam sendo executados com sucesso.
 
 Por fim, para monitorar a aplicação final, é usado a ferramenta pm2start que traz várias métricas sobre o sistema em execução, o que ajuda a monitorá-lo e garantir que tudo está ocorrendo sem problemas.
+
+Documentação da arquitetura na visão de desenvolvimento
+-------------------------------------------------------
+
+Referências
+-----------
+- http://gulpjs.com/
+- http://www.w3schools.com/html/html_intro.asp
+- https://github.com/pugjs/pug
+- http://learnjade.com/
+- http://www.w3schools.com/css/css_intro.asp
+- http://sass-lang.com/
+- http://lesscss.org/
+- https://github.com/strongloop/loopback
+- https://loopback.io/
+- http://www.i-programmer.info/news/150-training-a-education/9698-freecodecamp-not-just-a-bootcamp.html
+- https://nodejs.org/en/
+- https://en.wikipedia.org/wiki/Event-driven_programming
+- https://www.npmjs.com/
+- http://getbootstrap.com/
+- http://moboom.com/blog-post/what-is-mobile-first-design-and-why-should-i-care/e14c121f-f539-aa88-23a1-5217e7b71283
+- https://en.wikipedia.org/wiki/Source-to-source_compiler
+- https://pt.wikipedia.org/wiki/ECMAScript
+- https://en.wikipedia.org/wiki/Software_feature
+- https://en.wikipedia.org/wiki/Milestone_(project_management)
+- https://babeljs.io/
+- http://eslint.org/
+- https://travis-ci.org/
+- https://var.ci/
+- https://bower.io/
+- https://snyk.io/
+- http://pm2.keymetrics.io/
+- https://webpack.github.io/
