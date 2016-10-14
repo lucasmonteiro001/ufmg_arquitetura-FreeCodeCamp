@@ -84,7 +84,7 @@ O projeto do Free Code Camp no GitHub foi iniciado em novembro de 2013. A evolu�
 
 Entre novembro de 2013 até os dias atuais foram feitos inúmeros *commits*, para uma melhor visualização veja a imagem abaixo onde temos o gráfico do número de commits ao longo do tempo.
 
-![frequencia submissao, contrubuicoes](https://raw.githubusercontent.com/lucasmonteiro001/engenharia-de-software-2-freeCodeCamp/master/img/contribuicoes.png)
+![frequencia submissao, contrubuicoes](https://raw.githubusercontent.com/lucasmonteiro001/engenharia-de-software-2-freeCodeCamp/master/img/contrubuicoes.png)
    			Fonte: https://github.com/FreeCodeCamp/FreeCodeCamp
 
 
