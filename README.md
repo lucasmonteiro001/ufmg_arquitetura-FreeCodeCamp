@@ -55,6 +55,9 @@ Free Code Camp é um sistema bastante popular no GitHub (182.575 estrelas e 6.93
 
 Entre novembro de 2013 até os dias atuais foram feitos inúmeros *commits*, para uma melhor visualização veja a imagem abaixo onde temos o gráfico do número de commits ao longo do tempo.
 
+![contribuicoes ao longo do tempo](https://raw.githubusercontent.com/lucasmonteiro001/engenharia-de-software-2-freeCodeCamp/master/img/commits.png)
+   			Fonte: http://kangax.github.io/compat-table/es6/ 
+
 O principal contribuidor do projeto e também professor do Free Code Camp é o usuário QuincyLarson (1648 *commits*), seguido por BerkeleyTrue (1253 *commits*), Sahat (1143 *commits*) e a partir de Sahat o número de commits cai para 500 e continua a decrescer.
 
 Evolução do sistema
