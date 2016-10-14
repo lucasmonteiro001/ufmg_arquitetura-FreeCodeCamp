@@ -183,16 +183,16 @@ A figura a seguir ilustra como é a estrutura de uma aplicação em Loopback. Es
 Principais ferramentas
 ----------------------
 
-O sistema usa uma grande variedade de ferramentas para gerar a sua versão que será executada em produção. Várias dessas ferramentas ajudam o programador a otimizar seu tempo, seja por meio facilidade de escrever em determinada DSL ao invés da linguagem a ser interpretada pelos browsers, ou mesmo para executar testes automatizados sem a necessidade de executar um script manualmente.
+O sistema usa uma grande variedade de ferramentas para gerar a sua versão que será executada em produção. Várias dessas ferramentas ajudam o programador a otimizar seu tempo, seja por meio facilidade de escrever em determinada DSL ao invés da linguagem a ser interpretada pelos *browsers*, ou mesmo para executar testes automatizados sem a necessidade de executar um script manualmente.
 
 Dentre as ferramentas utilizadas, podemos destacar:
 
- - Gulp: segundo a própria descrição da ferramenta, sua função é automatizar e melhorar o fluxo de trabalho. Seguindo a convenção "código ao invés de configuração", torna seu uso mais simples para desenvolvedores. Na próxima subseção, será mostrado o workflow simplificado de build do sistema para que o leitor entenda como é feita a geração do código final.
- - Babel: biblioteca (transpiler) que converte código de ES6 para ES5.
+ - Gulp: segundo a própria descrição da ferramenta, sua função é automatizar e melhorar o fluxo de trabalho. Seguindo a convenção "código ao invés de configuração", torna seu uso mais simples para desenvolvedores. Na próxima subseção, será mostrado o *workflow* simplificado de *build* do sistema para que o leitor entenda como é feita a geração do código final.
+ - Babel: biblioteca (*transpiler*) que converte código de ES6 para ES5.
  - Eslint: biblioteca que realiza a análise estática de código para procurar por padrões problemáticos ou por pedaços de código que não seguem um padrão determinado em um guia de estilo.
- - Travis: ferramenta de integração contínua que facilita a verificação de código que foi committed e pushed para o GitHub. Após o código ter sido pushed, o GitHub notifica o Travis e ele executa os testes definidos pelo sistema para verificar se o novo código não quebra nenhuma função já existente no sistema.
- - Var.ci: ferramenta para automatizar o gerenciamento de issues e pull requests.
- - Bower: gerenciador de versões para frameworks, bibliotecas e arquivos estáticos.
+ - Travis: ferramenta de integração contínua que facilita a verificação de código que foi *committed* e *pushed* para o GitHub. Após o código ter sido *pushed*, o GitHub notifica o Travis e ele executa os testes definidos pelo sistema para verificar se o novo código não quebra nenhuma função já existente no sistema.
+ - Var.ci: ferramenta para automatizar o gerenciamento de *issues* e *pull requests*.
+ - Bower: gerenciador de versões para *frameworks*, bibliotecas e arquivos estáticos.
  - Snyk: ferramenta para detecção, prevenção e correção de vulnerabilidades conhecidas para aplicativos desenvolvidos em Node.js.
  - pm2Start: ferramenta para gerenciamento de aplicativos Node.js que estão executando em produção. Essa ferramenta provê vários serviços, tais como gerenciamento de memória e monitoração de métricas pré-definidas.
  - Webpack: biblioteca que funciona como um empacotador de módulos. Ao se executar o webpack, ele pega todos os módulos com dependências e gera arquivos estáticos contendo esses módulos.
