@@ -82,6 +82,9 @@ O projeto do Free Code Camp no GitHub foi iniciado em novembro de 2013. A evolu�
 
 Para ilustrar a evolução do sistema, temos abaixo o gráfico de frequência de submissão de código desde 18/10/2016.
 
+![frequencia submissao](https://raw.githubusercontent.com/lucasmonteiro001/engenharia-de-software-2-freeCodeCamp/master/img/frequencia_submissao.png)
+   			Fonte: https://github.com/FreeCodeCamp/FreeCodeCamp
+
 
 Principais linguagens
 ---------------------
@@ -179,6 +182,9 @@ Loopback é um *framework* de código aberto que consiste em bibliotecas de mód
 
 A figura a seguir ilustra como é a estrutura de uma aplicação em Loopback. Esse *framework* tem papéis em diferentes partes da aplicação através do seu extenso conjunto de módulos:
 
+![loopback](https://raw.githubusercontent.com/lucasmonteiro001/engenharia-de-software-2-freeCodeCamp/master/img/loopback.png)
+   			Fonte: https://loopback.io/ 
+
 **Bootstrap**
 
 É um *framework* HTML, CSS e JavaScript para desenvolvimento de projetos responsivos e mobile-first.
@@ -205,6 +211,9 @@ Ambiente de desenvolvimento
 ---------------------------
 
 O ambiente de desenvolvimento gira o torno do Gulp (*task runner*). Para otimizar a produção de código, inicia-se uma *task* do Gulp (*watcher*) que fica observando os arquivos. Por exemplo, se um arquivo .jade mudar, Gulp percebe essa mudança e executa uma tarefa que pega esse código e compila para HTML. Temos uma figura simplificada de como o gulp trabalha:
+
+![build-flow gulp](https://raw.githubusercontent.com/lucasmonteiro001/engenharia-de-software-2-freeCodeCamp/master/img/build-flow.png)
+   			Fonte: arquivo pessoal
 
 Gulp, após realizar tarefas pré-configuradas, como as mostradas acima, gera uma pasta (nesse caso é *dist/*), a qual é o sistema final. Assim, o *browser* consegue ler os arquivos gerados, pois todos foram gerados como HTML, CSS ou JavaScript ES5.
 
