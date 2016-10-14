@@ -154,3 +154,31 @@ Exemplo:
 
 Less é um CSS preprocessor e possui a mesma função do Sass.
 
+Ambiente de execução
+--------------------
+
+**Node.js**
+
+É um ambiente de execução de JavaScript construído sobre o motor JavaScript V8 do Chrome. Node.js usa um modelo de I/O não blocante e é baseado em eventos (fluxo do programa é determinado por eventos, tais como mensagens e cliques de mouse pelo usuário).
+
+**NPM**
+O gerenciador de pacotes utilizado pelo Node.js é o npm (Node Package Manager), o qual é o maior gerenciador de pacotes de código aberto da atualidade.
+
+Principais frameworks
+---------------------
+
+**Loopback**
+
+Loopback é um framework open source que consiste em bibliotecas de módulos do Node.js e que funciona de maneira full-stack, ajudando o desenvolvedor na construção de APIs mobile, web e de outros dispositivos. Esse framework entra como uma camada acima dos serviços e dos dados da aplicação, e provê diversas funcionalidades que habilitam o desenvolvedor a, por exemplo:
+
+ - Criar REST APIs dinâmicas e com design end-to-end;
+ - Acessar e se conectar a dados de diversas fontes, como: Oracle, MySQL, PostgreSQL, MS SQL Server, MongoDB, SOAP e outras REST APIs;
+ - Monitorar e implantar os Apps de forma gráfica através da ferramenta Strongloop Arc;
+ - Executar as aplicações localmente ou na nuvem;
+ - Criar aplicações cliente de forma fácil usando diferentes SDKs;
+
+A figura a seguir ilustra como é a estrutura de uma aplicação em Loopback. Esse framework tem papéis em diferentes partes da aplicação através do seu extenso conjunto de módulos:
+
+**Bootstrap**
+
+É um framework HTML, CSS e JavaScript para desenvolvimento de projetos responsivos e mobile-first.
