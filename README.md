@@ -201,13 +201,13 @@ Dentre as ferramentas utilizadas, podemos destacar:
 Ambiente de desenvolvimento
 ---------------------------
 
-O ambiente de desenvolvimento gira o torno do Gulp (task runner). Para otimizar a produção de código, inicia-se uma task do Gulp (watcher) que fica observando os arquivos. Por exemplo, se um arquivo .jade mudar, Gulp percebe essa mudança e executa uma tarefa que pega esse código e compila para HTML. Temos uma figura simplificada de como o gulp trabalha:
+O ambiente de desenvolvimento gira o torno do Gulp (*task runner*). Para otimizar a produção de código, inicia-se uma *task* do Gulp (*watcher*) que fica observando os arquivos. Por exemplo, se um arquivo .jade mudar, Gulp percebe essa mudança e executa uma tarefa que pega esse código e compila para HTML. Temos uma figura simplificada de como o gulp trabalha:
 
-Gulp, após realizar tarefas pré-configuradas, como as mostradas acima, gera uma pasta (nesse caso é dist/), a qual é o sistema final. Assim, o browser consegue ler os arquivos gerados, pois todos foram gerados como HTML, CSS ou JavaScript ES5.
+Gulp, após realizar tarefas pré-configuradas, como as mostradas acima, gera uma pasta (nesse caso é *dist/*), a qual é o sistema final. Assim, o *browser* consegue ler os arquivos gerados, pois todos foram gerados como HTML, CSS ou JavaScript ES5.
 
-As tasks mostradas na figura acima são explicadas na seção de principais ferramentas. Além das ferramentas mostradas no fluxo, para aumentar a segurança do sistema, Snyk é executado para procurar por vulnerabilidades do sistema.
+As *tasks* mostradas na figura acima são explicadas na seção de principais ferramentas. Além das ferramentas mostradas no fluxo, para aumentar a segurança do sistema, Snyk é executado para procurar por vulnerabilidades do sistema.
 
-Para garantir que o código criado não quebrou funcionalidades já existentes, quando o código é pushed para o GitHub, uma notificação é feita para o sistema Travis que executa os testes automatizados para verificar que todos os testes já escritos continuam sendo executados com sucesso.
+Para garantir que o código criado não quebrou funcionalidades já existentes, quando o código é *pushed* para o GitHub, uma notificação é feita para o sistema Travis que executa os testes automatizados para verificar que todos os testes já escritos continuam sendo executados com sucesso.
 
 Por fim, para monitorar a aplicação final, é usado a ferramenta pm2start que traz várias métricas sobre o sistema em execução, o que ajuda a monitorá-lo e garantir que tudo está ocorrendo sem problemas.
 
