@@ -260,6 +260,18 @@ Eeste módulo se relaciona com toda a parte que diz respeito ao servidor e tudo 
 
 Neste módulo é feito as configurações iniciais, e configurações básicas do sistema. Temos vários repositórios que definem vários fatores do sistema. Por exemplo o repositório css que define as configurações padrões de layout. Temos também o repositório fonts que contém arquivos de extensão .ttf que define as fontes usadas no sistema. Além disso temos vários outros repositórios que definem as configurações públicas do sistema(aquela que é visível sem necessitar nenhum tipo de login). Além do mais, esse repositório fornece os arquivos estáticos utilizados pela aplicação no lado do cliente.
 
+**Common**
+
+ O módulo *common* diz respeito a partes do sistema que são executados tanto no servidor quanto no cliente e é composto por 3 repositórios: *app*, *models*, *utils*, os quais são explicados a seguir: 
+ 
+*App*: a aplicação usa React para definir a parte de visualização referente a interface de usuário, e é nesse módulo e que encontramos arquivos com extensão jsx, que definem algumas configurações para esta tecnologia. No repositório de *app* temos 5 outros repositórios que o compõe, sendo eles: *components*, *redux*, *routes*, *toasts* e *utils*.
+
+ - *Components*: no repositório *components* é onde definimos questões relacionadas à navegação da barra do sistema, como também configurações relacionadas ao rodapé da página. Além de definir estes componentes temos também a definição do mapa do site, que é uma espécie de menu lateral que abre ao lado.
+ - *Redux*: Nessa pasta temos alguns arquivos referentes a tecnologia Redux, que é um "recipiente de estados" que emite atualizações de estados do sistema em resposta a certas ações. Nesse sistema em específico, o Redux é usado em conjunto com a tecnologia React, e ambas funcionam muito bem em conjunto visto que o React abstrai a interface de usuário de forma que podemos descrevê-la como uma função de estado, o que é algo muito conveniente para a integração com o Redux.
+ - *Routes*: No repositório *routes* é onde é feita a configuração das rotas do sistema, temos as configurações do repositório *settings* e *challenges* (o repositório *Admin* ainda não possui nenhum tipo de implementação). Além disso temos também os arquivos de extensão .jsx, que são scripts escritos na linguagem ExtendScript (uma extensão da linguagem JavaScript). Estes arquivos .jsx tem como propriedade a definição das modais do sistema, bem como seu preenchimento (títulos, strings, ou qualquer outro tipo de informação visual).
+ - *Toasts*: no repositório *toasts* definimos algumas pequenas notificações bem simples que podem ser exibidas no sistema. Essas notificações são exibidas em pequenas janelas para o usuário com informações relevantes sobre seu progresso, entre outras notificações importantes.
+ - *Utils*: contém utilitários, ou seja, funções úteis que facilitam o desenvolvimento e são usadas em outras partes do módulo.
+
 Referências
 -----------
 - http://gulpjs.com/
