@@ -182,3 +182,34 @@ A figura a seguir ilustra como é a estrutura de uma aplicação em Loopback. Es
 **Bootstrap**
 
 É um framework HTML, CSS e JavaScript para desenvolvimento de projetos responsivos e mobile-first.
+
+Principais ferramentas
+----------------------
+
+O sistema usa uma grande variedade de ferramentas para gerar a sua versão que será executada em produção. Várias dessas ferramentas ajudam o programador a otimizar seu tempo, seja por meio facilidade de escrever em determinada DSL ao invés da linguagem a ser interpretada pelos browsers, ou mesmo para executar testes automatizados sem a necessidade de executar um script manualmente.
+
+Dentre as ferramentas utilizadas, podemos destacar:
+
+ - Gulp: segundo a própria descrição da ferramenta, sua função é automatizar e melhorar o fluxo de trabalho. Seguindo a convenção "código ao invés de configuração", torna seu uso mais simples para desenvolvedores. Na próxima subseção, será mostrado o workflow simplificado de build do sistema para que o leitor entenda como é feita a geração do código final.
+ - Babel: biblioteca (transpiler) que converte código de ES6 para ES5.
+ - Eslint: biblioteca que realiza a análise estática de código para procurar por padrões problemáticos ou por pedaços de código que não seguem um padrão determinado em um guia de estilo.
+ - Travis: ferramenta de integração contínua que facilita a verificação de código que foi committed e pushed para o GitHub. Após o código ter sido pushed, o GitHub notifica o Travis e ele executa os testes definidos pelo sistema para verificar se o novo código não quebra nenhuma função já existente no sistema.
+ - Var.ci: ferramenta para automatizar o gerenciamento de issues e pull requests.
+ - Bower: gerenciador de versões para frameworks, bibliotecas e arquivos estáticos.
+ - Snyk: ferramenta para detecção, prevenção e correção de vulnerabilidades conhecidas para aplicativos desenvolvidos em Node.js.
+ - pm2Start: ferramenta para gerenciamento de aplicativos Node.js que estão executando em produção. Essa ferramenta provê vários serviços, tais como gerenciamento de memória e monitoração de métricas pré-definidas.
+ - Webpack: biblioteca que funciona como um empacotador de módulos. Ao se executar o webpack, ele pega todos os módulos com dependências e gera arquivos estáticos contendo esses módulos.
+ 
+
+Ambiente de desenvolvimento
+---------------------------
+
+O ambiente de desenvolvimento gira o torno do Gulp (task runner). Para otimizar a produção de código, inicia-se uma task do Gulp (watcher) que fica observando os arquivos. Por exemplo, se um arquivo .jade mudar, Gulp percebe essa mudança e executa uma tarefa que pega esse código e compila para HTML. Temos uma figura simplificada de como o gulp trabalha:
+
+Gulp, após realizar tarefas pré-configuradas, como as mostradas acima, gera uma pasta (nesse caso é dist/), a qual é o sistema final. Assim, o browser consegue ler os arquivos gerados, pois todos foram gerados como HTML, CSS ou JavaScript ES5.
+
+As tasks mostradas na figura acima são explicadas na seção de principais ferramentas. Além das ferramentas mostradas no fluxo, para aumentar a segurança do sistema, Snyk é executado para procurar por vulnerabilidades do sistema.
+
+Para garantir que o código criado não quebrou funcionalidades já existentes, quando o código é pushed para o GitHub, uma notificação é feita para o sistema Travis que executa os testes automatizados para verificar que todos os testes já escritos continuam sendo executados com sucesso.
+
+Por fim, para monitorar a aplicação final, é usado a ferramenta pm2start que traz várias métricas sobre o sistema em execução, o que ajuda a monitorá-lo e garantir que tudo está ocorrendo sem problemas.
