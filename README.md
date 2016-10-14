@@ -272,6 +272,35 @@ Neste módulo é feito as configurações iniciais, e configurações básicas d
  - *Toasts*: no repositório *toasts* definimos algumas pequenas notificações bem simples que podem ser exibidas no sistema. Essas notificações são exibidas em pequenas janelas para o usuário com informações relevantes sobre seu progresso, entre outras notificações importantes.
  - *Utils*: contém utilitários, ou seja, funções úteis que facilitam o desenvolvimento e são usadas em outras partes do módulo.
 
+*Models*: no repositório models é onde temos o modelo dos dados baseado na linguagem .json (javaScript Object Notation). Json é uma notação de objetos que tem como objetivo a troca de informações/dados entre sistemas. Neste repositório temos arquivos no formato .js e .json que definem o modelo de dados em várias funcionalidades do sistema. Para demonstração temos o arquivo User-Identity.json que define os dados referente à identidade do usuário, isso é feito na pequena parte do código abaixo:
+
+    {
+      "name": "userIdentity",
+      "plural": "userIdentities",
+      "base": "UserIdentity",
+      "properties": {},
+      "validations": [],
+      "relations": {
+        "user": {
+          "type": "belongsTo",
+          "model": "user",
+          "foreignKey": "userId"
+        }
+      },
+      "acls": [
+        {
+          "accessType": "*",
+          "principalType": "ROLE",
+          "principalId": "$everyone",
+          "permission": "DENY"
+        }
+      ],
+      "methods": {}
+    }
+
+*Utils*: contém utilitários, ou seja, funções úteis que facilitam o desenvolvimento e são usadas em outras partes do módulo. Um exemplo é o arquivo get-first-challenge.js, que faz algumas verificações e retorna o primeiro desafio que o usuário em questão terá de resolver ao logar no sistema.
+
+
 Referências
 -----------
 - http://gulpjs.com/
