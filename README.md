@@ -2,11 +2,8 @@ Arquitetura do sistema Free Code Camp
 ====================================
 
 **Alunos:** Arthur Vargas, Lucas Pereira Monteiro, Thiago Lucas dos S. Sandi
-
 **Professor:** Marco Túlio Oliveira Valente
-
 **Monitor:** José Laerte Xavier
-
 **Repositório Github:** https://github.com/FreeCodeCamp/FreeCodeCamp
 
 Descrição do sistema
@@ -53,3 +50,12 @@ Vocabulário Específico
  -  Push: Enviar commits para o repositório onde o código está localizado. 
  - SDK: Software Development Kit. Normalmente os SDKs são disponibilizados por empresas ou projetos de código aberto para que programadores externos tenham uma melhor integração com o software proposto.
  - Transpiler: é um tipo de compilador que obtém como entrada um programa escrito em uma linguagem X e gera o código equivalente na linguagem Y. No contexto desse trabalho, o transpiler obtém um código em ES6 e converte para ES5.
+
+Equipe de desenvolvimento
+-------------------------
+
+Free Code Camp é um sistema bastante popular no GitHub (182.575 estrelas e 6.930 forks no dia 13/10/2016), e por ter uma popularidade tão alta, contou com a contribuição de dezenas de desenvolvedores de vários lugares do mundo. 
+
+Entre novembro de 2013 até os dias atuais foram feitos inúmeros commits, para uma melhor visualização veja a imagem abaixo onde temos o gráfico do número de commits ao longo do tempo.
+
+O principal contribuidor do projeto e também professor do Free Code Camp é o usuário QuincyLarson (1648 commits), seguido por BerkeleyTrue (1253 commits), Sahat (1143 commits) e a partir de Sahat o número de commits cai para 500 e continua a decrescer.
