@@ -251,10 +251,14 @@ Eeste módulo se relaciona com toda a parte que diz respeito ao servidor e tudo 
  - *boot*: aqui são definidas as rotinas de inicialização do sistema.
  - *manifests*: esse diretório contém arquivos json gerados em tempo de execução de acordo com cada cliente.
  - *middlewares*: são definidas as formas que o servidor vai lidar com os diferentes requisições do sistema, no sentido de servir como um *parser* para as diferentes linguagens pré-compiladas ou de domínio específico, de forma que elas sejam compiladas e convertidas para linguagens que o servidor entenda.
- - *resources*: este diretório contém alguns recursos do servidor, no caso, ele possui apenas o arquivo testimonials.json, que contém uma lista de testemunhos dados por usuários da aplicação, juntamente com informações básicas deste usuário e um link para a foto de perfil dele. Essa lista serve para abastecer a sessão de testemunhos da aplicação.
+ - *resources*: este diretório contém alguns recursos do servidor, no caso, ele possui apenas o arquivo testimonials.json, que contém uma lista de testemunhos dados por usuários da aplicação, juntamente com informações básicas deste usuário e um *link* para a foto de perfil dele. Essa lista serve para abastecer a sessão de testemunhos da aplicação.
  - *services*: contém instanciações de alguns serviços da aplicação.
  - *utils*: contém utilitários, ou seja, funções úteis que facilitam o desenvolvimento e são usadas em outras partes do módulo. Um exemplo é o arquivo auth.js, que contém funções para lidar com a autenticação de um usuário ou setar o perfil de um usuário de acordo com seu perfil em outra plataforma, como o GitHub.
  - *views*: possui arquivos, em sua maioria, escritos em .Jade, e possui o papel de definir e configurar a parte de visualização no lado do servidor.
+
+**Public**
+
+Neste módulo é feito as configurações iniciais, e configurações básicas do sistema. Temos vários repositórios que definem vários fatores do sistema. Por exemplo o repositório css que define as configurações padrões de layout. Temos também o repositório fonts que contém arquivos de extensão .ttf que define as fontes usadas no sistema. Além disso temos vários outros repositórios que definem as configurações públicas do sistema(aquela que é visível sem necessitar nenhum tipo de login). Além do mais, esse repositório fornece os arquivos estáticos utilizados pela aplicação no lado do cliente.
 
 Referências
 -----------
