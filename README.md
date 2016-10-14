@@ -2,8 +2,11 @@ Arquitetura do sistema Free Code Camp
 ====================================
 
 **Alunos:** Arthur Vargas, Lucas Pereira Monteiro, Thiago Lucas dos S. Sandi
+
 **Professor:** Marco Túlio Oliveira Valente
+
 **Monitor:** José Laerte Xavier
+
 **Repositório Github:** https://github.com/FreeCodeCamp/FreeCodeCamp
 
 Descrição do sistema
