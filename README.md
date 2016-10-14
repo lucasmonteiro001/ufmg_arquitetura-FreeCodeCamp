@@ -33,6 +33,7 @@ Vocabulário Específico
    browsers, como pode ser verificada na figura de representação de
    compatibilidade abaixo, onde a porcentagem indica a quantidade de
    características do ES6 que já estão disponíveis.
+   [[https://github.com/lucasmonteiro001/engenharia-de-software-2-freeCodeCamp/blob/master/tabela_compatibilidade.png]]
    
    			Fonte: http://kangax.github.io/compat-table/es6/ 
    			
