@@ -53,7 +53,7 @@ Equipe de desenvolvimento
 
 Free Code Camp é um sistema bastante popular no GitHub (182.575 estrelas e 6.930 *forks* no dia 13/10/2016), e por ter uma popularidade tão alta, contou com a contribuição de dezenas de desenvolvedores de vários lugares do mundo. 
 
-Entre novembro de 2013 até os dias atuais foram feitos inúmeros *commits*, para uma melhor visualização veja a imagem abaixo onde temos o gráfico do número de commits ao longo do tempo.
+Para ilustrar a evolução do sistema, temos abaixo o gráfico de frequência de submissão de código desde 18/10/2016.
 
 ![commits](https://raw.githubusercontent.com/lucasmonteiro001/engenharia-de-software-2-freeCodeCamp/master/img/commits.png)
    			Fonte: https://github.com/FreeCodeCamp/FreeCodeCamp
@@ -80,7 +80,7 @@ O projeto do Free Code Camp no GitHub foi iniciado em novembro de 2013. A evolu�
  - *Teacher mode*: Um modo para professores feito para que estes consigam gerenciar e acompanhar o progresso usuários dentro de um grupo de trabalho, além de terem acesso a gráficos informativos sobre o desempenho dos seus alunos.
  - *Offline mode with syncing:* Criação de um modo *offline* para que os usuários possam programar e resolver os desafios mesmo quando não estiverem com acesso a internet. Para isso, o conteúdo das aulas pode ser baixado e completado *offline* para que depois o usuário submeta e sincronize seu progresso *online*.
 
-Para ilustrar a evolução do sistema, temos abaixo o gráfico de frequência de submissão de código desde 18/10/2016.
+Entre novembro de 2013 até os dias atuais foram feitos inúmeros *commits*, para uma melhor visualização veja a imagem abaixo onde temos o gráfico do número de commits ao longo do tempo.
 
 ![frequencia submissao, contrubuicoes](https://raw.githubusercontent.com/lucasmonteiro001/engenharia-de-software-2-freeCodeCamp/master/img/contribuicoes.png)
    			Fonte: https://github.com/FreeCodeCamp/FreeCodeCamp
