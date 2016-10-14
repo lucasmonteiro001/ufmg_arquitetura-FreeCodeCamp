@@ -51,31 +51,31 @@ Vocabulário Específico
 Equipe de desenvolvimento
 -------------------------
 
-Free Code Camp é um sistema bastante popular no GitHub (182.575 estrelas e 6.930 forks no dia 13/10/2016), e por ter uma popularidade tão alta, contou com a contribuição de dezenas de desenvolvedores de vários lugares do mundo. 
+Free Code Camp é um sistema bastante popular no GitHub (182.575 estrelas e 6.930 *forks* no dia 13/10/2016), e por ter uma popularidade tão alta, contou com a contribuição de dezenas de desenvolvedores de vários lugares do mundo. 
 
-Entre novembro de 2013 até os dias atuais foram feitos inúmeros commits, para uma melhor visualização veja a imagem abaixo onde temos o gráfico do número de commits ao longo do tempo.
+Entre novembro de 2013 até os dias atuais foram feitos inúmeros *commits*, para uma melhor visualização veja a imagem abaixo onde temos o gráfico do número de commits ao longo do tempo.
 
-O principal contribuidor do projeto e também professor do Free Code Camp é o usuário QuincyLarson (1648 commits), seguido por BerkeleyTrue (1253 commits), Sahat (1143 commits) e a partir de Sahat o número de commits cai para 500 e continua a decrescer.
+O principal contribuidor do projeto e também professor do Free Code Camp é o usuário QuincyLarson (1648 *commits*), seguido por BerkeleyTrue (1253 *commits*), Sahat (1143 *commits*) e a partir de Sahat o número de commits cai para 500 e continua a decrescer.
 
 Evolução do sistema
 -------------------
 
-O projeto do Free Code Camp no GitHub foi iniciado em novembro de 2013. A evolução e adição de novas features neste projeto geralmente são motivadas pelo sistema de issues e pull requests. Uma vez que problemas ou propostas são apontadas por usuários e/ou desenvolvedores, uma issue é gerada, e assim, os contribuidores do sistema tentam resolvê-la. A seguir, mostraremos algumas milestones importantes do sistema em ordem cronológica:
+O projeto do Free Code Camp no GitHub foi iniciado em novembro de 2013. A evolução e adição de novas *features* neste projeto geralmente são motivadas pelo sistema de *issues* e *pull requests*. Uma vez que problemas ou propostas são apontadas por usuários e/ou desenvolvedores, uma *issue* é gerada, e assim, os contribuidores do sistema tentam resolvê-la. A seguir, mostraremos algumas *milestones* importantes do sistema em ordem cronológica:
 
- - 07/2015 - Nonprofit Projects: nesse update, toda a infraestrutura dos projetos para ajudar organizações sem fins lucrativos foi migrada do Google Forms para a base de dados principal do sistema. E com isso foram adicionadas funcionalidades para que os usuários e os stakeholders pudessem interagir, criar e se incluir em projetos dentro da própria aplicação;
- - 01/2016 - Challenges: Novos desafios foram adicionados, levando em conta o uso das tecnologias React + SASS. Além disso, novos desafios podem ser criados e designados para os usuários tendo como base issues do github;
- - 01/2016 - New Curriculum: adiciona novos currículos JS e jQuery e a funcionalidade on-the-go curriculum;
- - 01/2016 - Framework Migration - migração de framework de Express.js para Loopback.js;
- - 01/2016 - Camperbot: Lançamento do Camperbot, um chatbot que auxilia usuários nos chats Gitter do Free Code Camp através de comandos interativos;
- - 01/2016 - Follow Mode: adicionadas várias funcionalidades para o usuário, como: seguir outros usuários, visualizar perfis de usuários, trancar informações do perfil e torná-las privadas, etc;
- - 09/2016 - Hotkeys: implementa a funcionalidade de hotkeys (atalhos de teclado) para os usuários, de forma que  estes possam navegar pelo site e editar seus códigos usando apenas o teclado. Os usuários podem definir suas próprias hotkeys;
+ - 07/2015 - *Nonprofit Projects*: nesse *update*, toda a infraestrutura dos projetos para ajudar organizações sem fins lucrativos foi migrada do Google Forms para a base de dados principal do sistema. E com isso foram adicionadas funcionalidades para que os usuários e os *stakeholders* pudessem interagir, criar e se incluir em projetos dentro da própria aplicação;
+ - 01/2016 - *Challenges*: Novos desafios foram adicionados, levando em conta o uso das tecnologias React + SASS. Além disso, novos desafios podem ser criados e designados para os usuários tendo como base *issues* do GitHub;
+ - 01/2016 - *New Curriculum*: adiciona novos currículos JS e jQuery e a funcionalidade *on-the-go curriculum*;
+ - 01/2016 - *Framework Migration* - migração de *framework* de Express.js para Loopback.js;
+ - 01/2016 - *Camperbot*: Lançamento do *Camperbot*, um *chatbot* que auxilia usuários nos chats Gitter do Free Code Camp através de comandos interativos;
+ - 01/2016 - *Follow Mode*: adicionadas várias funcionalidades para o usuário, como: seguir outros usuários, visualizar perfis de usuários, trancar informações do perfil e torná-las privadas, etc;
+ - 09/2016 - *Hotkeys*: implementa a funcionalidade de *hotkeys* (atalhos de teclado) para os usuários, de forma que  estes possam navegar pelo site e editar seus códigos usando apenas o teclado. Os usuários podem definir suas próprias *hotkeys*;
  
  Muitas funcionalidades importantes estão em aberto e sendo implementadas no momento, tais como:
- - Night Mode: Uma versão alternativa do CSS do sistema para ambientes com pouca iluminação.
- - Simplify Authentication: Um jeito de simplificar a autenticação dos usuários para não gerar problemas futuros com gerenciamento de contas. A idéia é que os usuários possam se autenticar apenas através de contas Google ou GitHub, sem uso de senha.
- - Real-time pair programming: Usuários podem programar com parceiros de programação em tempo real e navegar pelos desafios do site juntos. Além de poderem se comunicar com áudio via VOIP.
- - Teacher mode: Um modo para professores feito para que estes consigam gerenciar e acompanhar o progresso usuários dentro de um grupo de trabalho, além de terem acesso a gráficos informativos sobre o desempenho dos seus alunos.
- - Offline mode with syncing: Criação de um modo offline para que os usuários possam programar e resolver os desafios mesmo quando não estiverem com acesso a internet. Para isso, o conteúdo das aulas pode ser baixado e completado offline para que depois o usuário submeta e sincronize seu progresso online.
+ - *Night Mode*: Uma versão alternativa do CSS do sistema para ambientes com pouca iluminação.
+ - *Simplify Authentication*: Um jeito de simplificar a autenticação dos usuários para não gerar problemas futuros com gerenciamento de contas. A idéia é que os usuários possam se autenticar apenas através de contas Google ou GitHub, sem uso de senha.
+ - *Real-time pair programming:* Usuários podem programar com parceiros de programação em tempo real e navegar pelos desafios do site juntos. Além de poderem se comunicar com áudio via VOIP.
+ - *Teacher mode*: Um modo para professores feito para que estes consigam gerenciar e acompanhar o progresso usuários dentro de um grupo de trabalho, além de terem acesso a gráficos informativos sobre o desempenho dos seus alunos.
+ - *Offline mode with syncing:* Criação de um modo *offline* para que os usuários possam programar e resolver os desafios mesmo quando não estiverem com acesso a internet. Para isso, o conteúdo das aulas pode ser baixado e completado *offline* para que depois o usuário submeta e sincronize seu progresso *online*.
 
 Para ilustrar a evolução do sistema, temos abaixo o gráfico de frequência de submissão de código desde 18/10/2016.
 
