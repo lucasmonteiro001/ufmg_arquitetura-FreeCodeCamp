@@ -44,11 +44,11 @@ Vocabulário Específico
  - *Milestone*: normalmente utilizado em Gerenciamento de Projetos para especificar pontos chave/específicos durante o desenvolvimento de um software, tais como início do projeto, entrega de versão 1.0 e fim do projeto. 
  - *Mobile-first:* abordagem para o design responsivo. Primeiro, projete para pequenas telas, depois adicione conteúdo e características para telas maiores. 
  - *Open Source*: código aberto. 
- - Programação orientada a eventos: em geral um loop principal espera por eventos e executa um função *callback* quando um evento ocorre. 
+ - Programação orientada a eventos: em geral um loop principal espera por eventos e executa uma função *callback* quando um evento ocorre. 
  - *Pull request*: Mudanças que foram subidas para um repositório e que necessitam de aprovação para serem integradas ao código principal.
  -  *Push*: Enviar *commits* para o repositório onde o código está localizado. 
  - SDK: *Software Development Kit*. Normalmente os SDKs são disponibilizados por empresas ou projetos de código aberto para que programadores externos tenham uma melhor integração com o software proposto.
- - *Transpiler*: é um tipo de compilador que obtém como entrada um programa escrito em uma linguagem X e gera o código equivalente na linguagem Y. No contexto desse trabalho, o transpiler obtém um código em ES6 e converte para ES5.
+ - *Transpiler*: é um tipo de compilador que obtém como entrada um programa escrito em uma linguagem X e gera o código equivalente na linguagem Y. No contexto deste trabalho, o transpiler obtém um código em ES6 e converte para ES5.
 
 Equipe de desenvolvimento
 -------------------------
@@ -194,11 +194,11 @@ A figura a seguir ilustra como é a estrutura de uma aplicação em Loopback. Es
 Principais ferramentas
 ----------------------
 
-O sistema usa uma grande variedade de ferramentas para gerar a sua versão que será executada em produção. Várias dessas ferramentas ajudam o programador a otimizar seu tempo, seja por meio facilidade de escrever em determinada DSL ao invés da linguagem a ser interpretada pelos *browsers*, ou mesmo para executar testes automatizados sem a necessidade de executar um script manualmente.
+O sistema usa uma grande variedade de ferramentas para gerar a sua versão que será executada em produção. Várias dessas ferramentas ajudam o programador a otimizar seu tempo, seja por meio da facilidade de escrever em determinada DSL ao invés da linguagem a ser interpretada pelos *browsers*, ou mesmo para executar testes automatizados sem a necessidade de executar um script manualmente.
 
 Dentre as ferramentas utilizadas, podemos destacar:
 
- - Gulp: segundo a própria descrição da ferramenta, sua função é automatizar e melhorar o fluxo de trabalho. Seguindo a convenção "código ao invés de configuração", torna seu uso mais simples para desenvolvedores. Na próxima subseção, será mostrado o *workflow* simplificado de *build* do sistema para que o leitor entenda como é feita a geração do código final.
+ - Gulp: segundo a própria descrição da ferramenta, sua função é automatizar e melhorar o fluxo de trabalho. Seguir a convenção "código ao invés de configuração", torna seu uso mais simples para desenvolvedores. Na próxima subseção, será mostrado o *workflow* simplificado de *build* do sistema para que o leitor entenda como é feita a geração do código final.
  - Babel: biblioteca (*transpiler*) que converte código de ES6 para ES5.
  - Eslint: biblioteca que realiza a análise estática de código para procurar por padrões problemáticos ou por pedaços de código que não seguem um padrão determinado em um guia de estilo.
  - Travis: ferramenta de integração contínua que facilita a verificação de código que foi *committed* e *pushed* para o GitHub. Após o código ter sido *pushed*, o GitHub notifica o Travis e ele executa os testes definidos pelo sistema para verificar se o novo código não quebra nenhuma função já existente no sistema.
@@ -235,7 +235,7 @@ Neste módulo temos o código que deve ser executado somente no lado do cliente.
 
 No repositório *commomFramework* temos o *framework* que executa e analisa os desafios feitos pelo cliente, desafios relacionados ao desenvolvimento do curso, temos funções para verificar qual o tipo de desafio, testar se o desafio foi feito corretamente, etc.
 
-No repositório *less*, temos os arquivos .less da parte do cliente, estes arquivos possuem uma linguagem baseada em CSS. No repositório temos vários arquivos que definem o layout da página, por exemplo o arquivo map.less que define como será as cores de fontE, tamanho de margem, layout relacionado ao filtro, entre outras configurações de layout relacionadas ao mapa do sistema. Portanto podemos definir este módulo como as configurações de layout do cliente.
+No repositório *less*, temos os arquivos .less da parte do cliente, estes arquivos possuem uma linguagem baseada em CSS. No repositório temos vários arquivos que definem o layout da página, por exemplo o arquivo map.less que define como será as cores de fontE, tamanho de margem, layout relacionado ao filtro, entre outras configurações de layout relacionadas ao mapa do sistema. Portanto, podemos definir este módulo como as configurações de layout do cliente.
 
 No repositório *rechallenge* é feito configurações para execução de determinado desafio, que pode ser selecionado pelo cliente na página do sistema.
 
@@ -260,25 +260,25 @@ O repositório *utils* contém utilitários comuns na execução do cliente, *ut
 
 **Server**
 
-Eeste módulo se relaciona com toda a parte que diz respeito ao servidor e tudo que é executado nele. Neste módulo o servidor é iniciado de acordo com as configurações pré-definidas e as variáveis de ambiente são setadas, os bancos de dados usados são definidos e são também definidos os middlewares a serem usados. Existem 7 diretórios neste módulo, que são: *boot*, *manifests*, *middlewares*, *resources*, *services*, *utils*, *views*, os quais serão explicados a seguir.
+Este módulo se relaciona com toda a parte que diz respeito ao servidor e tudo que é executado nele. Neste módulo o servidor é iniciado de acordo com as configurações pré-definidas e as variáveis de ambiente são setadas, os bancos de dados usados são definidos e são também definidos os middlewares a serem usados. Existem 7 diretórios neste módulo, que são: *boot*, *manifests*, *middlewares*, *resources*, *services*, *utils*, *views*, os quais serão explicados a seguir.
 
  - *boot*: aqui são definidas as rotinas de inicialização do sistema.
  - *manifests*: esse diretório contém arquivos json gerados em tempo de execução de acordo com cada cliente.
  - *middlewares*: são definidas as formas que o servidor vai lidar com os diferentes requisições do sistema, no sentido de servir como um *parser* para as diferentes linguagens pré-compiladas ou de domínio específico, de forma que elas sejam compiladas e convertidas para linguagens que o servidor entenda.
  - *resources*: este diretório contém alguns recursos do servidor, no caso, ele possui apenas o arquivo testimonials.json, que contém uma lista de testemunhos dados por usuários da aplicação, juntamente com informações básicas deste usuário e um *link* para a foto de perfil dele. Essa lista serve para abastecer a sessão de testemunhos da aplicação.
- - *services*: contém instanciações de alguns serviços da aplicação.
+ - *services*: contém instâncias de alguns serviços da aplicação.
  - *utils*: contém utilitários, ou seja, funções úteis que facilitam o desenvolvimento e são usadas em outras partes do módulo. Um exemplo é o arquivo auth.js, que contém funções para lidar com a autenticação de um usuário ou setar o perfil de um usuário de acordo com seu perfil em outra plataforma, como o GitHub.
  - *views*: possui arquivos, em sua maioria, escritos em .Jade, e possui o papel de definir e configurar a parte de visualização no lado do servidor.
 
 **Public**
 
-Neste módulo é feito as configurações iniciais, e configurações básicas do sistema. Temos vários repositórios que definem vários fatores do sistema. Por exemplo o repositório css que define as configurações padrões de layout. Temos também o repositório fonts que contém arquivos de extensão .ttf que define as fontes usadas no sistema. Além disso temos vários outros repositórios que definem as configurações públicas do sistema(aquela que é visível sem necessitar nenhum tipo de login). Além do mais, esse repositório fornece os arquivos estáticos utilizados pela aplicação no lado do cliente.
+Neste módulo é feito as configurações iniciais, e configurações básicas do sistema. Temos vários repositórios que definem vários fatores do sistema. Por exemplo, o repositório css que define as configurações padrões de layout. Temos também o repositório fonts que contém arquivos de extensão .ttf que define as fontes usadas no sistema. Além disso, temos vários outros repositórios que definem as configurações públicas do sistema(aquela que é visível sem necessitar nenhum tipo de login). Além do mais, esse repositório fornece os arquivos estáticos utilizados pela aplicação no lado do cliente.
 
 **Common**
 
  O módulo *common* diz respeito a partes do sistema que são executados tanto no servidor quanto no cliente e é composto por 3 repositórios: *app*, *models*, *utils*, os quais são explicados a seguir: 
  
-*App*: a aplicação usa React para definir a parte de visualização referente a interface de usuário, e é nesse módulo e que encontramos arquivos com extensão jsx, que definem algumas configurações para esta tecnologia. No repositório de *app* temos 5 outros repositórios que o compõe, sendo eles: *components*, *redux*, *routes*, *toasts* e *utils*.
+*App*: a aplicação usa React para definir a parte de visualização referente a interface de usuário e é nesse módulo que encontramos arquivos com extensão jsx, que definem algumas configurações para esta tecnologia. No repositório de *app* temos 5 outros repositórios que o compõe, sendo eles: *components*, *redux*, *routes*, *toasts* e *utils*.
 
  - *Components*: no repositório *components* é onde definimos questões relacionadas à navegação da barra do sistema, como também configurações relacionadas ao rodapé da página. Além de definir estes componentes temos também a definição do mapa do site, que é uma espécie de menu lateral que abre ao lado.
  - *Redux*: Nessa pasta temos alguns arquivos referentes a tecnologia Redux, que é um "recipiente de estados" que emite atualizações de estados do sistema em resposta a certas ações. Nesse sistema em específico, o Redux é usado em conjunto com a tecnologia React, e ambas funcionam muito bem em conjunto visto que o React abstrai a interface de usuário de forma que podemos descrevê-la como uma função de estado, o que é algo muito conveniente para a integração com o Redux.
