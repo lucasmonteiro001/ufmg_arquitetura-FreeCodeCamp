@@ -20,9 +20,13 @@ A principal filosofia de aprendizado do Free Code Camp é o aprendizado através
 
 Existem 4 certificações que podem ser obtidas no Free Code Camp: *Front End Development* (400 horas), *Data Visualization* (400 horas), *Back End Development* (400 horas), Desenvolvimento de Projetos sem fins lucrativos (800 horas), e por último uma entrevista (80 horas), totalizando ao todo 2,080 horas para receber todos os certificados disponíveis até o momento.
 
-O Free Code Camp possui em seu sistema 2 componentes principais, o primeiro é o código base do *backend* que é um código aberto disponível no GitHub, atráves da licença BSD3, e também o *front end* que é utilizado no sistema atual de aprendizado na web que está no endereço https://freecodecamp.com/.
+O Free Code Camp possui em seu sistema 2 componentes principais, o primeiro é o código base do *backend* que é um código aberto disponível no GitHub, atráves da licença BSD3 (disponível no link https://opensource.org/licenses/BSD-3-Clause), e também o *front end* que é utilizado no sistema atual de aprendizado na web que está no endereço https://freecodecamp.com/.
 
-O objetivo do sistema é fornecer para os desenvolvedores novatos uma plataforma de desenvolvimento de fácil aprendizado. Podemos resumir o objetivo em:   “FreeCodeCamp é uma comunidade amigável de código aberto onde você aprende a desenvolver códigos de forma eficiente, e também à ajudar organizações sem fins lucrativos. Nós ajudamos nossos campistas a construir portfólios com excelência, projetos baseados em aplicações reais usadas por pessoas reais”.
+O objetivo do sistema é fornecer para os desenvolvedores novatos uma plataforma de desenvolvimento de fácil aprendizado. Podemos resumir o objetivo em:   
+>"FreeCodeCamp é uma comunidade amigável de código aberto onde você aprende a desenvolver códigos de forma eficiente, e também à ajudar organizações sem fins lucrativos. Nós ajudamos nossos campistas a construir portfólios com excelência, projetos baseados em aplicações reais usadas por pessoas reais."
+>
+> -- <cite>http://freecodecamp.com</cite>
+
 
 Vocabulário Específico
 ----------------------
@@ -115,7 +119,7 @@ Exemplo:
 
 Linguagem de marcação para criar páginas Web. Essa linguagem descreve como uma página Web deve ser estruturada utilizando-se *tags*.
 
-**Jade/Pug**
+###### **Jade/Pug**
 
 Linguagem de template que gera código HTML. Sua principal característica é que ela permite o uso de uma sintaxe mais simples e poderosa que escrever em HTML puro. Esse tipo de linguagem também é conhecida como HTML *preprocessor*. Depois do código escrito, roda-se um script que converte o código para HTML.
 
@@ -133,7 +137,7 @@ Exemplo:
 
 CSS (*Cascading Style Sheets*) é uma linguagem para Web que define como os elementos devem ser mostrados. Exemplo: um elemento deve ter 14px de tamanho, estar alinhado à esquerda, ter uma borda sólida, sua cor de linha deve ser verde e a cor de fundo amarela.
 
-**Sass**
+###### **Sass**
 
 Sass (*Syntactically Awesome Style Sheets*) é um CSS *preprocessor*. Utilizando-se Sass, é possível escrever em uma linguagem de programação mais amigável e mais poderosa que CSS puro. Exemplo: criar variáveis em Sass e utilizá-las depois, o que não é possível em CSS. Outro exemplo seria o de aninhar elementos, como mostrado abaixo.
 
@@ -155,7 +159,7 @@ Exemplo:
 	    		color: blue;
 	    	}
 
-**Less**
+###### **Less**
 
 Less é um CSS *preprocessor* e possui a mesma função do Sass.
 
