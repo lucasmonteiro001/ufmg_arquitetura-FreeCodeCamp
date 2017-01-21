@@ -116,6 +116,10 @@ Projeto para melhorar o SEO (*Search Engine Optimization*) do sistema, visando m
 ###### React Release
 Sem descrição no GitHub.
 
+Contribuições
+-------------------
+Por ser um projeto de código aberto, o Free Code Camp depende da comunidade de desenvolvedores para continuar seu desenvolvimento e manter  suas atividades atuais. Sendo assim, buscando facilitar o engajamento de novos desenvolvedores, há uma seção na Wiki do projeto voltada somente para isso, com instruções de como contribuir. Esta seção se encontra no link https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Wiki-Contribute-Online .
+
 Principais linguagens
 ---------------------
 
