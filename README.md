@@ -1,4 +1,4 @@
-Arquitetura do sistema Free Code Camp
+Arquitetura do sistema Free Code Camp (Revisado)
 ====================================
 
 **Alunos:** Arthur Vargas, Lucas Pereira Monteiro, Thiago Lucas dos S. Sandi
@@ -94,8 +94,27 @@ Entre novembro de 2013 até os dias atuais foram feitos inúmeros *commits*, par
 Issues
 -------------------
 
-Os *issues* administrados pelo FreeCodeCamp podem ser encontrados no GitHub no link https://github.com/FreeCodeCamp/FreeCodeCamp/issues . Tais *issues* podem ser relacionados há várias coisas, tais como sugestões de novas funcionalidades para o sistema e indicação de *bugs* (erros).
+Os *issues* administrados pelo Free Code Camp podem ser encontrados no GitHub no link https://github.com/FreeCodeCamp/FreeCodeCamp/issues . Tais *issues* podem ser relacionados há várias coisas, tais como sugestões de novas funcionalidades para o sistema e indicação de *bugs* (erros).
 
+Projetos
+-------------------
+
+A adminstração do Free Code Camp possui no GitHub uma seção relacionada a projetos, os quais podem ser encontrados no link https://github.com/FreeCodeCamp/FreeCodeCamp/projects . Tais projetos são organizados de forma a melhor gerenciar o crescimento do sistema. Até o momento, existem 5 projetos disponíveis.
+
+###### Open API
+Projeto para discutir a iniciativa Open API que pretende reestruturar o *back-end* do sistema e criar API's que podem ser reaproveitadas para criar aplicações em torno do currículo já existente.
+
+###### Overhaul code sharing
+Projeto para descrever obrigatórias visando tornar o compartilhamento de código mais simples e seguro.
+
+###### Common Support Issues
+Sem descrição no GitHub.
+
+###### SEO improvements (to commence after React/curriculum expansion)
+Projeto para melhorar o SEO (*Search Engine Optimization*) do sistema, visando melhorar seu acesso por meio de ferramentas de busca.
+
+###### React Release
+Sem descrição no GitHub.
 
 Principais linguagens
 ---------------------
