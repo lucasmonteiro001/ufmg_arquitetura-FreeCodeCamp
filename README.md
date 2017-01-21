@@ -90,6 +90,11 @@ Entre novembro de 2013 até os dias atuais foram feitos inúmeros *commits*, par
 
 ![frequencia submissao, contrubuicoes](https://raw.githubusercontent.com/lucasmonteiro001/engenharia-de-software-2-freeCodeCamp/master/img/contrubuicoes.png)
    			Fonte: https://github.com/FreeCodeCamp/FreeCodeCamp
+			
+Issues
+-------------------
+
+Os *issues* administrados pelo FreeCodeCamp podem ser encontrados no GitHub no link https://github.com/FreeCodeCamp/FreeCodeCamp/issues . Tais *issues* podem ser relacionados há várias coisas, tais como sugestões de novas funcionalidades para o sistema e indicação de *bugs* (erros).
 
 
 Principais linguagens
